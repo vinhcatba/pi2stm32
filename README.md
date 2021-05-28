@@ -1,5 +1,5 @@
 # pi2stm32
-Sử dụng Raspberry Pi để nạp (flash) code cho STM32 thông qua cổng serial UART. Không cần mạch nạp.
+Sử dụng Raspberry Pi để nạp (flash) chương trình cho STM32 thông qua cổng serial UART. Không cần mạch nạp.
 Dựa trên bài blog của Matthew Dunn [tại đây](https://siliconjunction.wordpress.com/2017/03/21/flashing-the-stm32f-board-using-a-raspberry-pi-3/) 
 Các bước được thực hiện trên Raspberry Pi 3 model B
 # Chuẩn bị
@@ -37,9 +37,9 @@ sudo apt-get install stm32flash
 </table>
 <img src=https://user-images.githubusercontent.com/29064137/119982805-7ff54e00-bfe9-11eb-9a9a-620a29ac8fcf.png width = 500>
 
-# Tiến hành nạp code
+# Tiến hành nạp chương trình
 ## Build chương trình từ Keil
-Để nạp code thì tất nhiên là phải có code. Ta sử dụng file .hex đầu ra sau khi build từ Keil để nạp.
+Để nạp được chương trình thì tất nhiên là phải có chương trình đã. Ta sử dụng file .hex đầu ra sau khi build từ Keil để nạp.
 Đảm bảo rằng Keil output ra file .hex sau khi build:
 
 ![image](https://user-images.githubusercontent.com/29064137/119989620-969fa300-bff1-11eb-9c7a-24e81a961303.png)
