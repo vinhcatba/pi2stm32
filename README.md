@@ -46,7 +46,9 @@ sudo apt-get install stm32flash
 
 Ấn F7 để build.
 
-Sau khi build xong, gửi file .hex tới Ras Pi, ví dụ gửi thông qua VNC bằng VNC Viewer:
+Sau khi build xong, file .hex sẽ nằm ở `<thư mục project>/<tên project>/<tên project>.hex`
+
+Gửi file .hex tới Ras Pi, ví dụ gửi thông qua VNC bằng VNC Viewer:
 
 ![image](https://user-images.githubusercontent.com/29064137/119990688-d5822880-bff2-11eb-83cc-8bf744e2821b.png)
 
