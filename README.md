@@ -35,9 +35,11 @@ sudo apt-get install stm32flash
   <tr><td> R </td><td> GPIO2 (pin 3) </tr>
   <tr><td> BOOT0 </td><td> GPIO3 (pin 5) </tr>
 </table>
-<img src=https://user-images.githubusercontent.com/29064137/119982805-7ff54e00-bfe9-11eb-9a9a-620a29ac8fcf.png width = 500>
 
-![image](https://user-images.githubusercontent.com/29064137/120075646-624ce500-c0cc-11eb-82da-6f043a034d40.png)
+<img src=https://user-images.githubusercontent.com/29064137/120076070-13a04a80-c0ce-11eb-951c-4712b806bc56.png width = 500>
+
+<img src=https://user-images.githubusercontent.com/29064137/120075729-a9d37100-c0cc-11eb-9900-09785be5a13f.png width = 500>
+
 
 # Tiến hành nạp chương trình
 ## Build chương trình từ Keil
