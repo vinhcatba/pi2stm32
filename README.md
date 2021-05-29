@@ -25,7 +25,7 @@ sudo apt-get install stm32flash
   - Xoá chuỗi: `console=serial0,115200`  
 - Khởi động lại Ras Pi
 - Kết nối STM32 với Ras Pi như sau:
-
+(chú ý BOOT0 bỏ jumper ngắn mạch đi và kết nối vào pin ở giữa, BOOT1 nối 0, xem hình bên dưới)
 <table>
   <tr><td>STM32</td><td>Raspberry Pi</tr>
   <tr><td> 3.3V </td><td> 3.3V (pin 1) </tr>
@@ -36,6 +36,8 @@ sudo apt-get install stm32flash
   <tr><td> BOOT0 </td><td> GPIO3 (pin 5) </tr>
 </table>
 <img src=https://user-images.githubusercontent.com/29064137/119982805-7ff54e00-bfe9-11eb-9a9a-620a29ac8fcf.png width = 500>
+
+![image](https://user-images.githubusercontent.com/29064137/120075646-624ce500-c0cc-11eb-82da-6f043a034d40.png)
 
 # Tiến hành nạp chương trình
 ## Build chương trình từ Keil
